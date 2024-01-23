@@ -1,0 +1,21 @@
+-- INSERT INTO dojos (name)
+-- VALUES ("Space"), ("Earth"),("Mars");
+
+-- SET SQL_SAFE_UPDATES = 0;
+-- DELETE FROM dojos;
+
+ -- INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+ -- VALUES ("Matthew","Hunt",26,1),("George","Micheals",31,1),("Ryan","Hunt",35,1),
+	 -- ("Caroline","Larkin",26,2),("Christian","Hunt",31,2),("Clover","The Dog",4,2),
+		 -- ("Spam","Man",99,3),("You","Who",12,3),("Yelp","Review",2,3);
+
+-- SELECT * FROM dojos
+-- LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+-- WHERE dojos.id = 1;
+
+-- SELECT * FROM dojos
+-- LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+	-- WHERE dojos.id = (SELECT id FROM dojos ORDER BY id DESC LIMIT 1);
+    
+-- SELECT * FROM dojos
+-- WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
