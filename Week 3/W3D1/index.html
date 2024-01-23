@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zelda</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <!---Nav Bar-->
+            <div class="navbar">
+                <img src="img/zelda_logo.png.crdownload" alt="zelda logo" class="logo_img">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact Us</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+
+            <!--End of Nav Bar-->
+
+            <!--Banner-->
+            <div class="banner">
+                <div class="col">
+                    <img src="img/cover_art.jpg" alt="cover art" class="cover">
+                    <p>Actual Image: Breath of the Wild</p>
+                </div>
+                <div class="col-2">
+                    <p class="zelda_script"><span class="span_bold">The Legend of Zelda:</span> is a high fantasy action-adventure video game franchise created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, although some portable installments and re-releases have been outsourced to Capcom.</p>
+                    <button class="btn" onclick="alert('Lets Play')">Read More...</button>
+                    <button class="btn" onclick="addLike()">Like(s) <span class="like">0</span></button>
+                </div>
+            </div>
+            <!--End of Banner-->
+
+            <!--Cards-->
+        <div class="cards">
+            <div class="card" onclick="this.remove()">
+                <img src="img/img1.jpeg" alt="image 1" class="card_image">
+                <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="card" onclick="this.remove()">
+                <img src="img/img2.png" alt="image 1" class="card_image">
+                <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="card" onclick="this.remove()">
+                <img src="img/img3.png" alt="image 1" class="card_image">
+                <p class="card_text">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+            <!--End of Cards-->
+            <!--Footer-->
+            <P class="footer">@ Copyright - Janurary 2023</P>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

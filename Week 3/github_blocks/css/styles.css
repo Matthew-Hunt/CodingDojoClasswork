@@ -1,0 +1,40 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: gray;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.image{
+    height: 200px;
+}
+
+.square{
+    display: flex;
+    justify-content:space-around;
+    background-color:darkolivegreen;
+    margin:20px;
+    padding:20px;
+}
+
+.p{
+    background-color:darkseagreen;
+    justify-content: space-evenly;
+}
+
+.b{
+    background-color: lightgreen;
+}
+
+p{
+    text-align: center;
+}

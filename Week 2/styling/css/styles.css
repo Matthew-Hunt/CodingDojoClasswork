@@ -1,0 +1,23 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: "Comic Sans MS","Comic Sans", cursive;
+}
+span{
+    color:aqua;
+    font-family:"Comic Sans MS","Comic Sans", cursive;
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+    text-align: center;
+    font-style: italic;
+    font-family:"Comic Sans MS","Comic Sans", cursive;
+}
+h3{
+    color: indigo;
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    text-align: right;
+    font-family:"Comic Sans MS","Comic Sans", cursive;
+}
