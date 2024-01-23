@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Just Dessert</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <div class="background">
+
+            <!-- navbar -->
+            <div class="nav">
+                <div class="flex-container">
+                    <h1 class="nav-title">Just<span class="h1color">Dessert</span></h1>
+                    <ul class="nav-btns">
+                        <li><button class="btn1" onclick="disappear(this)">Join</button></li>
+                        <li><button class="btn2">Login</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- search bar -->
+            <div class="search-container">
+                <div class="flex-container-s">
+                    <input type="text" placeholder="Search" name="query"
+                        id="search-bar">
+                    <button type="submit" class="search-btn">Go</button>
+                    <ul class="search-imgs">
+                        <li><img src="img/cake.png" alt="cake image"
+                                class="s-img"><p>Cake</p></li>
+                        <li><img src="img/cookie.png" alt="cookie image"
+                                class="s-img"><p>Cookies</p></li>
+                        <li><img src="img/ice-cream.png" alt="ice cream image"
+                                class="s-img"><p>Ice Cream</p></li>
+                        <li><img src="img/pie.png" alt="pie image"
+                                class="s-img"><p>Pie</p></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- main -->
+            <div class="flex-container main">
+
+                <!-- 2/3 width column -->
+                <div class="col-2">
+
+                    <!-- recipe card -->
+                    <div class="card-recipe-day">
+                        <h2>Recipe of the Day</h2>
+                        <img src="img/orange-tart.jpg" alt="orange tart"
+                            class="tart-img">
+                        <img onclick="heart1()" src="img/heart.png" alt="heart"
+                            class="heart1">
+                        <span class="num1">68</span>
+                        <p>Orange Tea Jelly Tart<br>
+                            By:<a href="#">yuripiano</a></p>
+                        <h3 class="link"><a href="#">See Full Recipe</a></h3>
+                    </div>
+
+                </div>
+
+                <!-- 1/3 width column -->
+                <div class="col-1">
+                    <h3>Recommended for you:</h3>
+                    <hr>
+                    <!-- recommended card -->
+                    <div class="card">
+                    </div>
+                    <ul class="card-list">
+                        <li class="card-list-item">
+                            <div class="recipe-1">
+                                <img src="img/macarons.jpg" alt="macarons"
+                                    class="list-img">
+                                <img onclick="heart2()" src="img/heart.png"
+                                    alt="heart" class="heart2">
+                                <span class="num2">212</span>
+                                <p>Macarons<br>By:<a href="#"> EmilieW</a></p>
+                            </div>
+                        </li>
+                        <li class="card-list-item">
+                            <div class="recipe-2">
+                                <img src="img/creme-brulee.jpg" alt="creme
+                                    brulee" class="list-img">
+                                <img onclick="heart3()" src="img/heart.png"
+                                    alt="heart" class="heart3">
+                                <span class="num3">33</span>
+                                <p>Crème Brûlée<br>By:<a href="#"> MarisaG</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="jscript/script.js"></script>
+    </body>
+</html>

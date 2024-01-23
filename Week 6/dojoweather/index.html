@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DojoWeather</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="nav-container">
+                    <h1>DojoWeather</h1>
+                    <label id="Burbank">Burbank</label>
+                    <label id="Chicago">Chicago</label>
+                    <label id="Dallas">Dallas</label>
+                </div>
+            </div>
+            <div class="body">
+                <div class="top-row">
+                    <h2>San Jose</h2>
+                    <form class="temp-container">
+                        <label class="temp-selector">show temperature in </label>
+                        <select name="temp" id="temp-selector">
+                            <option value="fah">°F</option>
+                            <option selected value="cel">°C</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="bottom-row">
+                    <div class="weather">
+                        <h3>Today</h3>
+                        <img src="img/some_rain.png" alt="rain image">
+                        <p>some rain</p>
+                        <label class="temp-d"><span class="degree">24</span>°</label>
+                        <label class="temp-n"><span class="degree">18</span>°</label>
+                    </div>
+                    <div class="tomorrow">
+                        <div class="weather">
+                            <h3>Tomorrow</h3>
+                            <img src="img/some_sun.png" alt="sun image">
+                            <p>some sun</p>
+                            <label class="temp-d"><span class="degree">27</span>°</label>
+                            <label class="temp-n"><span class="degree">19</span>°</label>
+                        </div>
+                    </div>
+                    <div class="friday">
+                        <div class="weather">
+                            <h3>Friday</h3>
+                            <img src="img/some_clouds.png" alt="cloud image">
+                            <p>some clouds</p>
+                            <label class="temp-d"><span class="degree">21</span>°</label>
+                            <label class="temp-n"><span class="degree">16</span>°</label>
+                        </div>
+                    </div>
+                    <div class="saturday">
+                        <div class="weather">
+                            <h3>Saturday</h3>
+                            <img src="img/some_sun.png" alt="sun image">
+                            <p>some sun</p>
+                            <label class="temp-d"><span class="degree">26</span>°</label>
+                            <label class="temp-n"><span class="degree">21</span>°</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <img src="img/cookie.png" alt="cookie image">
+                <div class="cookie-text">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize
+                        content and ads, to provide social media features and to
+                        analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button class="cookie-btn">I Accept</button>
+            </div>
+        </div>
+        <script src="jscript/script.js"></script>
+    </body>
+
+</html>
